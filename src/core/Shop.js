@@ -139,7 +139,7 @@ const Shop = () => {
 
               
                     <Fade right>
-                    <div className="row" style={{ padding:"1rem"}}>
+                    <div className="row" style={{ padding:"1rem",float:"left"}}>
                         {filteredResults.map((product, i) => (
                             <div key={i} className="col-sm-3 mb-3">
                                 <Card product={product} />
